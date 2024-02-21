@@ -5,7 +5,7 @@ import Macintosh from '../../public/Macintosh.jsx'
 
 const MacintoshExplorer = () => {
   return (
-    <Canvas style={{ width: '50%' }} className="explore_canvas">
+    <Canvas className="explore_canvas">
       <OrbitControls />
       <Suspense fallback={null}>
         <Macintosh />
