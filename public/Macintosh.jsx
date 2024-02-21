@@ -7,7 +7,7 @@ Source: https://sketchfab.com/3d-models/macintosh-128k-4c358ebbf82a48acb6ee7b08f
 Title: Macintosh 128k
 */
 
-import React, { useRef } from 'react'
+import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Macintosh(props) {

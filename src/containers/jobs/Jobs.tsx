@@ -4,8 +4,7 @@ import Folder from '../../assets/folder.png'
 import FolderPink from '../../assets/folder-pink.png'
 import { MoveLeft, MoveRight } from 'lucide-react'
 import Club from '../../assets/club-terrazas.webp'
-import DevelopmentIT from '../../assets/development.jpg'
-import SoyPersonalidad from '../../assets/soy-personalidad.jpg'
+
 const Jobs = () => {
   const [folderSelected, setFolderSelected] = useState('')
   return (
