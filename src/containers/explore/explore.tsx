@@ -1,5 +1,5 @@
 import './explore.css'
-import iconMac from '../../assets/logo.png'
+import iconMac from '../../assets/apple-logo.png'
 import MacintoshExplorer from '../../components/macintoshExplorer'
 const Explore = () => {
   return (

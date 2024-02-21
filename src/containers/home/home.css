@@ -18,7 +18,7 @@
 
 .home_title {
   margin: 0px;
-  font-size: 100px;
+  font-size: 7em;
   color: whitesmoke;
   text-transform: uppercase;
   max-width: 170px;
@@ -32,7 +32,7 @@
 
 .home_rol {
   margin: 0px;
-  font-size: 40px;
+  font-size: 2em;
   color: #f19b9b;
 }
 .active {
@@ -63,4 +63,36 @@
 .title-enphasis {
   color: aqua;
   margin: 0px;
+}
+
+@media screen and (width <= 800px) {
+  .home_title {
+    margin: 0px;
+    font-size: 5em;
+    color: whitesmoke;
+    text-transform: uppercase;
+    max-width: 170px;
+  }
+
+  .home_rol {
+    margin: 0px;
+    font-size: 1.5em;
+    color: #f19b9b;
+  }
+}
+
+@media screen and (width <= 500px) {
+  .home_title {
+    margin: 0px;
+    font-size: 3em;
+    color: whitesmoke;
+    text-transform: uppercase;
+    max-width: 170px;
+  }
+
+  .home_rol {
+    margin: 0px;
+    font-size: 1em;
+    color: #f19b9b;
+  }
 }

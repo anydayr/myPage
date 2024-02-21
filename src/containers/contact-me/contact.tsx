@@ -1,7 +1,7 @@
 import './contact-me.css'
-import Linkedin from '../../assets/linkedin (3).png'
-import Git from '../../assets/github (3).png'
-import Gmail from '../../assets/gmail (1).png'
+import Linkedin from '../../assets/linkedin-logo.png'
+import Git from '../../assets/github-logo.png'
+import Gmail from '../../assets/gmail-logo.png'
 const Contact = () => {
   return (
     <div>

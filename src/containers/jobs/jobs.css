@@ -32,3 +32,13 @@
   font-size: 90px;
   color: #081622;
 }
+
+@media screen and (width <= 800px) {
+  .jobs_container {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+}

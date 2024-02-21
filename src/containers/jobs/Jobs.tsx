@@ -1,9 +1,8 @@
 import './jobs.css'
 import { useState } from 'react'
-import Folder from '../../assets/folder.png'
-import FolderPink from '../../assets/folder-pink.png'
+import Folder from '../../assets/folder-icon.png'
 import { MoveLeft, MoveRight } from 'lucide-react'
-import Club from '../../assets/club-terrazas.webp'
+import Club from '../../assets/club-terrazas-job.webp'
 
 const Jobs = () => {
   const [folderSelected, setFolderSelected] = useState('')
@@ -78,7 +77,7 @@ const Jobs = () => {
                 setFolderSelected('front-end')
               }}
             >
-              <img src={FolderPink} height={150} />
+              <img src={Folder} height={150} />
               <p style={{ color: '#be3455' }}>
                 <b>Front-end</b>
               </p>
