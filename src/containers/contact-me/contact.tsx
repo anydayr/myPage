@@ -43,9 +43,7 @@ const Contact = () => {
           <img src={Gmail} height={40} />
         </a>
       </div>
-      <div style={{ background: '#00fed0', textAlign: 'center' }}>
-        Made with ❤️
-      </div>
+      <div className="footer">Made with ❤️</div>
     </div>
   )
 }

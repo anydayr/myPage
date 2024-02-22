@@ -7,16 +7,13 @@
 
 @keyframes b {
   0% {
-    background: #081622;
-    .explore_hello {
-      color: #fbff00;
-    }
+    background: #00fed0;
   }
   15% {
-    background: #081622;
+    background: #00fed0;
   }
   30% {
-    background: #081622;
+    background: #00fed0;
   }
   60% {
     background: repeating-radial-gradient(#000 0 0.0001%, #fff 0 0.0002%) 50% 0/2500px
@@ -38,15 +35,16 @@
       rgba(202, 0, 253, 1) 92.4%
     );
     background-position: center;
+    background-size: cover;
   }
   80% {
-    background: #00fed0;
+    background: #d400ff;
   }
   90% {
-    background: #00fed0;
+    background: #081622;
   }
   100% {
-    background: #00fed0;
+    background: #081622;
   }
 }
 .explore_container {

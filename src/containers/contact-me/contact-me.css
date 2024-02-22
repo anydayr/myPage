@@ -12,3 +12,11 @@
   font-size: 90px;
   color: #be3455;
 }
+.footer {
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url('../../assets/start.gif');
+  color: #00fed0;
+  text-align: center;
+}
