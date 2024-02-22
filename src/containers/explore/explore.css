@@ -3,6 +3,7 @@
   align-items: center;
   height: 100vh;
   animation: b 5s infinite alternate;
+  position: relative;
 }
 
 @keyframes b {

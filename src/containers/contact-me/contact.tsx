@@ -7,7 +7,7 @@ const Contact = () => {
     <div>
       {' '}
       <div className="contact-me">
-        <p style={{ color: '#f19b9b' }}>
+        <p style={{ color: '#00fed0' }}>
           {' '}
           Contáctame a traves de mis redes sociales
         </p>

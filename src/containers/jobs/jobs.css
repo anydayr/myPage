@@ -16,8 +16,12 @@
 }
 
 .jobs {
-  background-color: #dfdfdf;
+  background-color: #ffbcd6;
   height: 100vh;
+  background-image: url('../../assets/jobs.svg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .jobs_container {
