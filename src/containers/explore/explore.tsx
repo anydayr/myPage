@@ -6,12 +6,15 @@ const Explore = () => {
   return (
     <div className="explore">
       <div className="explore" style={{ display: 'flex' }}>
-        <Canvas className="explore_canvas">
-          <MacintoshExplorer />
-        </Canvas>
+        <div className="explore_canvas">
+          <Canvas>
+            <MacintoshExplorer />
+          </Canvas>
+        </div>
+
         <div>
           <h2 className="explore_title">
-            <span style={{ color: '#be3455' }}>Hello</span> world
+            <span className="explore_hello">Hello</span> world
           </h2>
           <p className="explore_description">
             Exploremos esta macintosh de 1984

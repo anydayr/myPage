@@ -9,7 +9,7 @@ function App() {
     <div>
       <Home />
       <Explore />
-      <Stack />
+      {/*   <Stack /> */}
       <Jobs />
       <Contact />
     </div>

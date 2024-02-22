@@ -7,13 +7,16 @@
 
 @keyframes b {
   0% {
-    background: #f19b9b;
+    background: #081622;
+    .explore_hello {
+      color: #fbff00;
+    }
   }
   15% {
-    background: #f19b9b;
+    background: #081622;
   }
   30% {
-    background: #f19b9b;
+    background: #081622;
   }
   60% {
     background: repeating-radial-gradient(#000 0 0.0001%, #fff 0 0.0002%) 50% 0/2500px
@@ -37,18 +40,21 @@
     background-position: center;
   }
   80% {
-    background: #f19b9b;
+    background: #00fed0;
   }
   90% {
-    background: #f19b9b;
+    background: #00fed0;
   }
   100% {
-    background: #f19b9b;
+    background: #00fed0;
   }
 }
 .explore_container {
   margin: 0px;
   height: 100vh;
+}
+.explore_hello {
+  color: #be3455;
 }
 .explore_title {
   margin: 0;
@@ -64,8 +70,8 @@
   color: #081622;
 }
 .explore_canvas {
-  width: 50%;
   height: 100%;
+  width: 50%;
 }
 
 @media screen and (width <= 800px) {
