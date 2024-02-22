@@ -87,7 +87,7 @@
     flex-direction: column;
   }
   .explore_canvas {
-    height: 50% !important;
+    height: 40% !important;
   }
 }
 
@@ -104,8 +104,9 @@
     height: 100vh;
     animation: b 5s infinite alternate;
     flex-direction: column;
+    padding: 1.5rem;
   }
   .explore_canvas {
-    height: 50% !important;
+    height: 40% !important;
   }
 }
