@@ -1,5 +1,5 @@
 .contact-me {
-  background-color: #081622;
+  background-color: #be3455;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -10,7 +10,7 @@
   margin: 0;
   text-transform: uppercase;
   font-size: 90px;
-  color: #be3455;
+  color: #ececec;
 }
 .footer {
   font-family: 'Anonymous Pro', monospace;
@@ -19,4 +19,5 @@
   background-image: url('../../assets/start.gif');
   color: #00fed0;
   text-align: center;
+  font-size: 1.2em;
 }

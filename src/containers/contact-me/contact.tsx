@@ -7,7 +7,7 @@ const Contact = () => {
     <div>
       {' '}
       <div className="contact-me">
-        <p style={{ color: '#00fed0' }}>
+        <p style={{ color: 'whitesmoke' }}>
           {' '}
           Contáctame a traves de mis redes sociales
         </p>
@@ -15,9 +15,9 @@ const Contact = () => {
         <a
           href="https://www.linkedin.com/in/anny-rond%C3%B3n-18b967283/"
           style={{
-            background: 'none',
+            background: '#081622',
             border: 'solid 1px white',
-            padding: '2px',
+            padding: '0.5em',
           }}
         >
           <img src={Linkedin} height={40} />
@@ -25,9 +25,9 @@ const Contact = () => {
         <a
           href="https://github.com/anydayr"
           style={{
-            background: 'none',
+            background: '#081622',
             border: 'solid 1px white',
-            padding: '2px',
+            padding: '0.5em',
           }}
         >
           <img src={Git} height={40} />
@@ -35,9 +35,9 @@ const Contact = () => {
         <a
           href="mailto:annyrondon2025@gmail.com"
           style={{
-            background: 'none',
+            background: '#081622',
             border: 'solid 1px white',
-            padding: '2px',
+            padding: '0.5em',
           }}
         >
           <img src={Gmail} height={40} />
