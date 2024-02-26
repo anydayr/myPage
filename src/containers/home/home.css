@@ -1,8 +1,10 @@
 .home {
-  background-color: #081622;
+  background-color: #c04df9;
   height: 100vh;
-  background-image: url('../../assets/background-home.png');
+  background-image: url('../../assets/background-home.svg');
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .home_container {
   display: flex;
@@ -21,7 +23,6 @@
   font-size: 7em;
   color: whitesmoke;
   text-transform: uppercase;
-  max-width: 170px;
 }
 .home_watermark {
   margin: 0px;
@@ -33,7 +34,7 @@
 .home_rol {
   margin: 0px;
   font-size: 2em;
-  color: #f19b9b;
+  color: #ffec01;
 }
 .active {
   width: 15px;

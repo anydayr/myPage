@@ -7,9 +7,6 @@ const Home = () => {
         <div style={{ position: 'relative' }}>
           <h1 className="home_title">Anny Rondón</h1>
           <p className="home_rol">Desarrollador Front-end</p>
-          <p className="home_description">
-            <span className="active"></span>Disponible para trabajar
-          </p>
         </div>
       </div>
     </div>

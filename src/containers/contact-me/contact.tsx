@@ -16,7 +16,7 @@ const Contact = () => {
           href="https://www.linkedin.com/in/anny-rond%C3%B3n-18b967283/"
           style={{
             background: '#081622',
-            border: 'solid 1px white',
+            border: 'solid 1px #00fed0',
             padding: '0.5em',
           }}
         >
@@ -26,7 +26,7 @@ const Contact = () => {
           href="https://github.com/anydayr"
           style={{
             background: '#081622',
-            border: 'solid 1px white',
+            border: 'solid 1px #00fed0',
             padding: '0.5em',
           }}
         >
@@ -36,7 +36,7 @@ const Contact = () => {
           href="mailto:annyrondon2025@gmail.com"
           style={{
             background: '#081622',
-            border: 'solid 1px white',
+            border: 'solid 1px #00fed0',
             padding: '0.5em',
           }}
         >
