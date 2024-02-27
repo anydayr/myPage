@@ -2,6 +2,7 @@ import './explore.css'
 import iconMac from '../../assets/apple-logo.png'
 import MacintoshExplorer from '../../components/macintoshExplorer'
 import { Canvas } from '@react-three/fiber'
+import Dialog from '../../assets/dialog.png'
 const Explore = () => {
   return (
     <div className="explore">
@@ -25,6 +26,7 @@ const Explore = () => {
           </p>
         </div>
       </div>
+      <img src={Dialog} alt="" />
     </div>
   )
 }
