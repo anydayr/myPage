@@ -125,9 +125,9 @@ const Jobs = () => {
               interfaz y tambien de la integracióncon todos los servicios
               necesarios de la API REST
             </p>
-            <button className="ver-mas" disabled>
+            <a href="#" className="ver-mas-disabled">
               Repositorio privado
-            </button>
+            </a>
           </div>
         </div>
       </div>

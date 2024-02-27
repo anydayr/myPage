@@ -52,9 +52,18 @@
 }
 
 .ver-mas {
-  background-color: #2bd1fc;
+  background-color: #be3455;
   padding: 0.8rem;
   border: none;
+  text-decoration: none;
+  color: white;
+}
+.ver-mas-disabled {
+  background-color: #999999;
+  padding: 0.8rem;
+  border: none;
+  text-decoration: none;
+  color: rgb(77, 75, 75);
 }
 
 @media screen and (width <= 800px) {
