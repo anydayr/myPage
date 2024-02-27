@@ -57,6 +57,7 @@
   border: none;
   text-decoration: none;
   color: white;
+  min-width: 120px;
 }
 .ver-mas-disabled {
   background-color: #999999;

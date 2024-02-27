@@ -9,6 +9,7 @@ const Jobs = () => {
       <div className="jobs_layout">
         <div className="proyect_1" style={{ position: 'relative' }}>
           <img
+            loading="lazy"
             src={Club}
             alt=""
             height={'100%'}
@@ -41,6 +42,7 @@ const Jobs = () => {
         </div>
         <div className="proyect_2" style={{ position: 'relative' }}>
           <img
+            loading="lazy"
             src={Personality}
             alt=""
             height={'100%'}
@@ -70,6 +72,7 @@ const Jobs = () => {
         </div>
         <div className="proyect_3" style={{ position: 'relative' }}>
           <img
+            loading="lazy"
             src={Cook}
             alt=""
             height={'100%'}
@@ -102,6 +105,7 @@ const Jobs = () => {
         </div>
         <div className="proyect_4" style={{ position: 'relative' }}>
           <img
+            loading="lazy"
             src={Fisioterapist}
             alt=""
             height={'100%'}
