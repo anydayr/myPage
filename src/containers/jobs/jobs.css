@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
 }
-.jobs_grid {
+.jobs_layout {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -15,6 +15,26 @@
 
   width: 70%;
   height: 70%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #c04df9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.proyect_1:hover .overlay,
+.proyect_3:hover .overlay,
+.proyect_2:hover .overlay,
+.proyect_4:hover .overlay {
+  opacity: 1;
 }
 
 .proyect_1 {
@@ -28,4 +48,9 @@
 }
 .proyect_4 {
   grid-area: 3 / 4 / 6 / 6;
+}
+
+.ver-mas {
+  background-color: #2bd1fc;
+  padding: 0.5rem;
 }
