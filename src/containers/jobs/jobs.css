@@ -4,8 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../../assets/jobs-bg.png');
+  background-color: rgb(241, 241, 241);
   background-size: cover;
+  padding: 1em;
 }
 .jobs_layout {
   display: grid;

@@ -6,6 +6,9 @@ import Fisioterapist from '../../assets/fisioterapist.jpg'
 const Jobs = () => {
   return (
     <div className="jobs">
+      <h3 style={{ textAlign: 'center' }}>
+        Señala alguna de las imagenes para obtener más información →
+      </h3>
       <div className="jobs_layout">
         <div className="proyect_1" style={{ position: 'relative' }}>
           <img
@@ -56,7 +59,6 @@ const Jobs = () => {
               flexDirection: 'column',
               textAlign: 'center',
               color: 'black',
-              padding: '1em',
             }}
           >
             <h3 style={{ margin: 0 }}>Soy personalidad</h3>
