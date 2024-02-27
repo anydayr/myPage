@@ -22,7 +22,8 @@ const Explore = () => {
             <img src={iconMac} alt="" style={{ marginLeft: '8px' }} />
           </p>
           <p className="explore_credits">
-            Manten presionado el cursor sobre el objeto y gira lentamente
+            Use Tree js para crear este explorador ❤️, manten presionado el
+            cursor sobre el objeto y gira lentamente
           </p>
         </div>
       </div>
