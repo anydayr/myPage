@@ -15,7 +15,7 @@ const Home = () => {
       >
         <div className="home_container">
           <h2 className="fullName">Anny Rondón</h2>
-          <img src={Component} alt="" width={'100%'} height={'35%'} />
+          <img src={Component} alt="" className="part-casette" />
           <h3 className="rol">Front-end dev</h3>
           <span className="sticker">Portafolio</span>
         </div>

@@ -22,12 +22,14 @@
   font-style: normal;
   font-weight: 400;
   margin: 0;
+  text-align: center;
 }
 .fullName {
   margin: 0;
   text-transform: uppercase;
   font-size: 3em;
   color: white;
+  text-align: center;
 }
 
 .sticker {
@@ -36,4 +38,21 @@
   padding: 4px;
   margin: 0;
   color: white;
+}
+.part-casette {
+  height: 35%;
+  width: 100%;
+}
+
+@media screen and (width <= 800px) {
+  .part-casette {
+    height: 20%;
+    width: 100%;
+  }
+  .rol {
+    font-size: 1.5em;
+  }
+  .fullName {
+    font-size: 2.5em;
+  }
 }
