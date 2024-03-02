@@ -32,7 +32,7 @@ const Jobs = () => {
               href="https://play.google.com/store/apps/details?id=com.club.terrazas.app&hl=es_CO&gl=US"
               className="ver-mas"
             >
-              Ver más
+              Contáctame
             </a>
           </div>
         </div>
