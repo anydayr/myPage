@@ -130,4 +130,23 @@
   .proyect_4 {
     min-height: 200px;
   }
+  .proyect_1 {
+    border: solid 1px white;
+    border-radius: 12px;
+    background-image: url('../../assets/cook.svg');
+    overflow: hidden;
+  }
+  .proyect_2 {
+    border: solid 1px white;
+    border-radius: 12px;
+    background-image: url('../../assets/personality.svg');
+    overflow: hidden;
+  }
+  .proyect_3 {
+    border: solid 1px white;
+    border-radius: 12px;
+    background-image: url('../../assets/ball.svg');
+    background-position: center;
+    overflow: hidden;
+  }
 }
