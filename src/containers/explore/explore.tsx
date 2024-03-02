@@ -8,7 +8,7 @@ const Explore = () => {
     <div className="explore">
       <div className="explore" style={{ display: 'flex' }}>
         <div className="explore_canvas">
-          <Canvas style={{ border: 'solid 1px white', background: '#D9D9D9' }}>
+          <Canvas style={{ background: '#D9D9D9' }}>
             <MacintoshExplorer />
           </Canvas>
         </div>

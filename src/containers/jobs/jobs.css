@@ -4,19 +4,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(241, 241, 241);
+  background-color: #1e1e1e;
   background-size: cover;
   padding: 1em;
 }
+.jobs_title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+}
 .jobs_layout {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 12px;
-  grid-row-gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   height: 100%;
-  width: 80%;
-  height: 95%;
+  width: 100%;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
 }
 
 .overlay {
@@ -25,7 +31,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #e9e9e9;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,25 +46,37 @@
 }
 
 .proyect_1 {
-  grid-area: 1 / 1 / 6/ 3;
+  grid-area: 1 / 1 / 6 / 2;
+  border: solid 1px white;
+  border-radius: 12px;
 }
 .proyect_2 {
-  grid-area: 1 / 3 / 3 / 6;
+  grid-area: 1 / 2 / 3 / 6;
+  border: solid 1px white;
+  border-radius: 12px;
 }
 .proyect_3 {
-  grid-area: 3 / 3 / 6;
+  grid-area: 3 / 2 / 6 / 3;
+  border: solid 1px white;
+  border-radius: 12px;
 }
 .proyect_4 {
-  grid-area: 3 / 4 / 6 / 6;
+  grid-area: 3/ 3 / 6 / 6;
+  border: solid 1px white;
+  border-radius: 12px;
 }
 
 .ver-mas {
-  background-color: #be3455;
   padding: 0.8rem;
-  border: none;
+  border: solid 1px #f67246;
   text-decoration: none;
   color: white;
   min-width: 120px;
+  border-radius: 12px;
+  text-align: center;
+}
+.ver-mas:hover {
+  background-color: #f67246;
 }
 .ver-mas-disabled {
   background-color: #999999;
