@@ -1,12 +1,17 @@
 import './home.css'
 
 import Component from '../../assets/Component 1 .svg'
-
+import Circular from '../../assets/circular.svg'
 const Home = () => {
   return (
-    <div>
+    <div className="home">
+      <div className="details">
+        <img src={Circular} alt="" height={40} />
+        <img src={Circular} alt="" height={40} />
+      </div>
+
       <div
-        className="home"
+        className="home_layout"
         style={{
           display: 'flex',
           alignItems: 'center',
@@ -19,6 +24,11 @@ const Home = () => {
           <h3 className="rol">Front-end dev</h3>
           <span className="sticker">Portafolio</span>
         </div>
+      </div>
+
+      <div className="details">
+        <img src={Circular} alt="" height={40} />
+        <img src={Circular} alt="" height={40} />
       </div>
     </div>
   )

@@ -1,8 +1,8 @@
 .home_container {
   border-radius: 12px;
   border: solid 1px white;
-  height: 50%;
-  width: 60%;
+  height: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,9 +10,19 @@
   gap: 4px;
   padding: 1em;
 }
+.details {
+  display: flex;
+  justify-content: space-between;
+}
 .home {
   background-color: #1e1e1e;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.home_layout {
+  height: 60%;
 }
 
 .rol {
