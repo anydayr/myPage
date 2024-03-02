@@ -61,6 +61,7 @@
   border-radius: 12px;
   background-image: url('../../assets/cook.svg');
   overflow: hidden;
+  background-position: center;
 }
 .proyect_2 {
   grid-area: 1 / 2 / 3 / 6;
@@ -94,14 +95,11 @@
   text-align: center;
   border: solid 1px white;
 }
-
-.ver-mas-disabled {
-  background-color: #999999;
-  padding: 0.8rem;
-  border: none;
-  text-decoration: none;
-  color: rgb(77, 75, 75);
+.ver-mas:hover {
+  border: solid 1px #e9c465;
+  color: #e9c465;
 }
+
 .the_next {
   font-family: 'Rock 3D', system-ui;
   color: #e9c465;
@@ -135,6 +133,7 @@
     border-radius: 12px;
     background-image: url('../../assets/cook.svg');
     overflow: hidden;
+    background-position: center;
   }
   .proyect_2 {
     border: solid 1px white;

@@ -4,6 +4,7 @@
   gap: 12px;
   padding: 12px;
   background-color: #1e1e1e;
+  justify-content: center;
 }
 .social {
   border: solid 1px #e9c465;
