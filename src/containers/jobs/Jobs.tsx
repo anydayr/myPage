@@ -1,4 +1,3 @@
-import Contact from '../contact-me/contact'
 import './jobs.css'
 
 const Jobs = () => {
