@@ -25,6 +25,12 @@
   grid-row-gap: 8px;
 }
 
+.overlay_title {
+  color: whitesmoke;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -37,53 +43,74 @@
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 .proyect_1:hover .overlay,
 .proyect_3:hover .overlay,
 .proyect_2:hover .overlay,
 .proyect_4:hover .overlay {
   opacity: 1;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
 }
 
 .proyect_1 {
   grid-area: 1 / 1 / 6 / 2;
   border: solid 1px white;
   border-radius: 12px;
+  background-image: url('../../assets/cook.svg');
+  overflow: hidden;
 }
 .proyect_2 {
   grid-area: 1 / 2 / 3 / 6;
   border: solid 1px white;
   border-radius: 12px;
+  background-image: url('../../assets/personality.svg');
+  overflow: hidden;
 }
 .proyect_3 {
   grid-area: 3 / 2 / 6 / 3;
   border: solid 1px white;
   border-radius: 12px;
+  background-image: url('../../assets/ball.svg');
+  background-position: center;
+  overflow: hidden;
 }
 .proyect_4 {
   grid-area: 3/ 3 / 6 / 6;
   border: solid 1px white;
   border-radius: 12px;
+  overflow: hidden;
 }
 
 .ver-mas {
   padding: 0.8rem;
-  border: solid 1px #f67246;
+  background-color: #1e1e1e;
   text-decoration: none;
   color: white;
   min-width: 120px;
   border-radius: 12px;
   text-align: center;
+  border: solid 1px white;
 }
-.ver-mas:hover {
-  background-color: #f67246;
-}
+
 .ver-mas-disabled {
   background-color: #999999;
   padding: 0.8rem;
   border: none;
   text-decoration: none;
   color: rgb(77, 75, 75);
+}
+.the_next {
+  font-family: 'Rock 3D', system-ui;
+  color: #e9c465;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 @media screen and (width <= 800px) {

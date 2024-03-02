@@ -1,9 +1,12 @@
 .contact-me {
-  background-color: #d400ff;
   display: flex;
   align-items: center;
   gap: 12px;
   padding: 12px;
+}
+.social {
+  border: solid 1px #00fed0;
+  padding: 0.5em;
 }
 
 .contact-me_title {
@@ -15,7 +18,6 @@
 .footer {
   font-weight: 400;
   font-style: normal;
-  background-color: #00fed0;
   color: #020018;
   text-align: center;
   font-size: 1.2em;

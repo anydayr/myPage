@@ -4,46 +4,19 @@ import Git from '../../assets/github-logo.png'
 import Gmail from '../../assets/gmail-logo.png'
 const Contact = () => {
   return (
-    <div>
-      {' '}
-      <div className="contact-me">
-        <p style={{ color: 'whitesmoke' }}>
-          {' '}
-          Contáctame a traves de mis redes sociales
-        </p>
-
-        <a
-          href="https://www.linkedin.com/in/anny-rond%C3%B3n-18b967283/"
-          style={{
-            background: '#081622',
-            border: 'solid 1px #00fed0',
-            padding: '0.5em',
-          }}
-        >
-          <img src={Linkedin} height={40} />
-        </a>
-        <a
-          href="https://github.com/anydayr"
-          style={{
-            background: '#081622',
-            border: 'solid 1px #00fed0',
-            padding: '0.5em',
-          }}
-        >
-          <img src={Git} height={40} />
-        </a>
-        <a
-          href="mailto:annyrondon2025@gmail.com"
-          style={{
-            background: '#081622',
-            border: 'solid 1px #00fed0',
-            padding: '0.5em',
-          }}
-        >
-          <img src={Gmail} height={40} />
-        </a>
-      </div>
-      <div className="footer">¡Contáctame!</div>
+    <div className="contact-me">
+      <a
+        className="social"
+        href="https://www.linkedin.com/in/anny-rond%C3%B3n-18b967283/"
+      >
+        <img src={Linkedin} height={40} />
+      </a>
+      <a className="social" href="https://github.com/anydayr">
+        <img src={Git} height={40} />
+      </a>
+      <a className="social" href="mailto:annyrondon2025@gmail.com">
+        <img src={Gmail} height={40} />
+      </a>
     </div>
   )
 }
