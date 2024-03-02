@@ -8,13 +8,13 @@
 
 @keyframes b {
   0% {
-    background: #2bd1fc;
+    background: #d73e4c;
   }
   15% {
-    background: #2bd1fc;
+    background: #f67246;
   }
   30% {
-    background: #2bd1fc;
+    background: #e9c465;
   }
   60% {
     background: repeating-radial-gradient(#000 0 0.0001%, #fff 0 0.0002%) 50% 0/2500px
@@ -27,25 +27,25 @@
   61% {
     background-image: linear-gradient(
       89.7deg,
-      rgba(223, 0, 0, 1) 2.7%,
-      rgba(214, 91, 0, 1) 15.1%,
-      rgba(233, 245, 0, 1) 29.5%,
-      rgba(23, 255, 17, 1) 45.8%,
-      rgba(29, 255, 255, 1) 61.5%,
-      rgba(5, 17, 255, 1) 76.4%,
-      rgba(202, 0, 253, 1) 92.4%
+      #d73e4c 2.7%,
+      #f67246 15.1%,
+      #e9c465 29.5%,
+      #97e965 45.8%,
+      #8faba7 61.5%,
+      #6865e9 76.4%,
+      #bf65e9 92.4%
     );
     background-position: center;
     background-size: cover;
   }
   80% {
-    background: #d400ff;
+    background: #bf65e9;
   }
   85% {
     background: white;
   }
   100% {
-    background: #2bd1fc;
+    background: #d73e4c;
   }
 }
 .explore_container {
@@ -53,20 +53,26 @@
   height: 100vh;
 }
 .explore_hello {
-  color: #faeb6b;
+  color: #161616;
 }
 .explore_title {
   margin: 0;
   text-transform: uppercase;
   font-size: 6em;
-  color: #c04df9;
+  color: #ffffff;
 }
 .explore_description {
   margin: 0;
-  color: #be3455;
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+  background-color: white;
+
+  width: auto;
 }
 .explore_credits {
   color: black;
+  font-size: 18px;
 }
 .explore_canvas {
   height: 100%;

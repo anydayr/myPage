@@ -1,99 +1,39 @@
-.home {
-  background-color: #c04df9;
-  height: 100vh;
-  background-image: url('../../assets/background-home.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .home_container {
+  border-radius: 12px;
+  border: solid 1px white;
+  height: 50%;
+  width: 60%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  height: 100%;
+  flex-direction: column;
+  gap: 4px;
+  padding: 1em;
+}
+.home {
+  background-color: #1e1e1e;
+  height: 100vh;
 }
 
-.home_description {
-  display: flex;
-  gap: 12px;
-  color: #00fed0;
+.rol {
+  font-family: 'Rock 3D', system-ui;
+  color: white;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
 }
-
-.home_title {
-  margin: 0px;
-  font-size: 7em;
-  color: whitesmoke;
+.fullName {
+  margin: 0;
   text-transform: uppercase;
-}
-.home_watermark {
-  margin: 0px;
-  font-size: 130px;
-  color: whitesmoke;
-  text-transform: uppercase;
+  font-size: 3em;
+  color: white;
 }
 
-.home_rol {
-  margin: 0px;
-  font-size: 2em;
-  color: #faeb6b;
-}
-.active {
-  width: 15px;
-  height: 15px;
-  background-color: #00fed0;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
-  animation: palpitar 1s infinite alternate;
-}
-
-@keyframes palpitar {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.home_container {
-  padding-left: 20px;
-}
-
-.title-enphasis {
-  color: aqua;
-  margin: 0px;
-}
-
-@media screen and (width <= 800px) {
-  .home_title {
-    margin: 0px;
-    font-size: 5em;
-    color: whitesmoke;
-    text-transform: uppercase;
-    max-width: 170px;
-  }
-
-  .home_rol {
-    margin: 0px;
-    font-size: 1.5em;
-    color: #f19b9b;
-  }
-}
-
-@media screen and (width <= 500px) {
-  .home_title {
-    margin: 0px;
-    font-size: 3em;
-    color: whitesmoke;
-    text-transform: uppercase;
-    max-width: 170px;
-  }
-
-  .home_rol {
-    margin: 0px;
-    font-size: 1em;
-    color: #f19b9b;
-  }
+.sticker {
+  border: solid 1px white;
+  border-radius: 8px;
+  padding: 4px;
+  margin: 0;
+  color: white;
 }

@@ -1,15 +1,23 @@
 import './home.css'
-import './home.css'
+
+import Component from '../../assets/Component 1 .svg'
+
 const Home = () => {
   return (
-    <div className="home">
-      <div className="home_container">
-        <div style={{ position: 'relative' }}>
-          <h1 className="home_title">Anny Rondón</h1>
-          <p className="home_rol">Desarrollador de software</p>
-          <div style={{ display: 'flex', gap: '8px', color: '#00fed0' }}>
-            <div className="active"></div>Disponible para trabajar
-          </div>
+    <div>
+      <div
+        className="home"
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <div className="home_container">
+          <h2 className="fullName">Anny Rondón</h2>
+          <img src={Component} alt="" width={'100%'} height={'35%'} />
+          <h3 className="rol">Front-end dev</h3>
+          <span className="sticker">Portafolio</span>
         </div>
       </div>
     </div>
