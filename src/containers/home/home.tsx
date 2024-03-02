@@ -25,7 +25,6 @@ const Home = () => {
           <span className="sticker">Portafolio</span>
         </div>
       </div>
-
       <div className="details">
         <img src={Circular} alt="" height={40} />
         <img src={Circular} alt="" height={40} />

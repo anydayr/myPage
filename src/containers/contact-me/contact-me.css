@@ -3,10 +3,13 @@
   align-items: center;
   gap: 12px;
   padding: 12px;
+  background-color: #1e1e1e;
 }
 .social {
-  border: solid 1px #00fed0;
+  border: solid 1px #e9c465;
   padding: 0.5em;
+  border-radius: 12px;
+  background-color: #171717;
 }
 
 .contact-me_title {
@@ -18,7 +21,7 @@
 .footer {
   font-weight: 400;
   font-style: normal;
-  color: #020018;
+  color: #1e1e1e;
   text-align: center;
   font-size: 1.2em;
 }

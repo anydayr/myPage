@@ -39,7 +39,12 @@ const Jobs = () => {
         >
           <h3 className="the_next">Te animas a ser el siguiente?</h3>
           <div className="overlay">
-            <a className="ver-mas">Contáctame</a>
+            <a
+              className="ver-mas"
+              href="https://www.linkedin.com/in/anny-rond%C3%B3n-18b967283/"
+            >
+              Contáctame
+            </a>
           </div>
         </div>
       </div>
