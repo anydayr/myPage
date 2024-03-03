@@ -12,6 +12,9 @@
   border-radius: 12px;
   background-color: #171717;
 }
+.social:hover {
+  background-color: black;
+}
 
 .contact-me_title {
   margin: 0;

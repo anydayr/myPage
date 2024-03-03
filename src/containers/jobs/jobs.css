@@ -110,7 +110,12 @@
   text-align: center;
   text-transform: uppercase;
 }
-
+.title_jobs {
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  transform: rotate(-15deg);
+}
 @media screen and (width <= 800px) {
   .jobs {
     height: 100%;
@@ -128,23 +133,27 @@
   .proyect_4 {
     min-height: 200px;
   }
+  .title_jobs {
+    right: -51%;
+    top: 20%;
+  }
   .proyect_1 {
     border: solid 1px white;
     border-radius: 12px;
-    background-image: url('../../assets/cook.svg');
+    background-image: url('../../assets/cook.webp');
     overflow: hidden;
     background-position: center;
   }
   .proyect_2 {
     border: solid 1px white;
     border-radius: 12px;
-    background-image: url('../../assets/personality.svg');
+    background-image: url('../../assets/personality.webp');
     overflow: hidden;
   }
   .proyect_3 {
     border: solid 1px white;
     border-radius: 12px;
-    background-image: url('../../assets/ball.svg');
+    background-image: url('../../assets/ball.webp');
     background-position: center;
     overflow: hidden;
   }
