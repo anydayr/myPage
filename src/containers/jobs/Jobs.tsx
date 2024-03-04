@@ -8,19 +8,19 @@ const Jobs = () => {
         <div className="jobs_layout">
           <div className="proyect_1" style={{ position: 'relative' }}>
             <div className="overlay">
-              <h3 className="overlay_title">Proyecto 1</h3>
+              <h3 className="overlay_title">1</h3>
               <a className="ver-mas">Ver más</a>
             </div>
           </div>
           <div className="proyect_2" style={{ position: 'relative' }}>
             <div className="overlay">
-              <h3 className="overlay_title">Proyecto 2</h3>
+              <h3 className="overlay_title">2</h3>
               <a className="ver-mas">Ver más</a>
             </div>
           </div>
           <div className="proyect_3" style={{ position: 'relative' }}>
             <div className="overlay">
-              <h3 className="overlay_title">Proyecto 3</h3>
+              <h3 className="overlay_title">3</h3>
               <a className="ver-mas">Ver más</a>
             </div>
           </div>
