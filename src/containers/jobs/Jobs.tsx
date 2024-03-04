@@ -8,27 +8,20 @@ const Jobs = () => {
         <div className="jobs_layout">
           <div className="proyect_1" style={{ position: 'relative' }}>
             <div className="overlay">
-              <h3 className="overlay_title">El secreto de tu cocina</h3>
+              <h3 className="overlay_title">Proyecto 1</h3>
               <a className="ver-mas">Ver más</a>
             </div>
           </div>
           <div className="proyect_2" style={{ position: 'relative' }}>
             <div className="overlay">
-              <h3 className="overlay_title">Soy personalidad</h3>
-              <a href="https://soypersonalidad.com" className="ver-mas">
-                Ver más
-              </a>
+              <h3 className="overlay_title">Proyecto 2</h3>
+              <a className="ver-mas">Ver más</a>
             </div>
           </div>
           <div className="proyect_3" style={{ position: 'relative' }}>
             <div className="overlay">
-              <h3 className="overlay_title">Club terrazas</h3>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.club.terrazas.app&hl=es_CO&gl=US"
-                className="ver-mas"
-              >
-                Ver más
-              </a>
+              <h3 className="overlay_title">Proyecto 3</h3>
+              <a className="ver-mas">Ver más</a>
             </div>
           </div>
           <div
