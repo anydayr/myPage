@@ -2,42 +2,7 @@ body {
   margin: 0px;
   font-size: 16px;
   background-color: rgb(104, 104, 104);
-}
+  font-family: 'Italiana', sans-serif;
 
-body {
-  font-family: 'Righteous', sans-serif;
-  font-weight: 400;
   font-style: normal;
-}
-/* Tooltip container */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
-
-/* Tooltip text */
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 300px;
-  background-color: #be3455;
-  color: #dddddd;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-.author {
-  font-family: 'VT323', monospace;
-  font-size: 20px;
-  background-color: #be3455;
 }

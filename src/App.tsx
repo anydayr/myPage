@@ -1,17 +1,13 @@
-import Contact from './containers/contact-me/contact'
-import Explore from './containers/explore/explore'
-import Home from './containers/home/home'
-import Jobs from './containers/jobs/Jobs'
+import Confetti from './containers/home/confetti';
+import Home from './containers/home/home';
 
 function App() {
   return (
     <div>
       <Home />
-      <Explore />
-      <Jobs />
-      <Contact />
+      <Confetti />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

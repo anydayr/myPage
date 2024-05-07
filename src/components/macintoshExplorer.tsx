@@ -1,6 +1,6 @@
-import { Suspense } from 'react'
-import { Environment, OrbitControls } from '@react-three/drei'
-import Macintosh from '../../public/Macintosh.jsx'
+import { Suspense } from 'react';
+import { Environment, OrbitControls } from '@react-three/drei';
+import Macintosh from '../../public/Macintosh.jsx';
 
 const MacintoshExplorer = () => {
   return (
@@ -11,7 +11,7 @@ const MacintoshExplorer = () => {
       </Suspense>
       <Environment preset="night" />
     </>
-  )
-}
+  );
+};
 
-export default MacintoshExplorer
+export default MacintoshExplorer;

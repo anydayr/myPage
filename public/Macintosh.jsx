@@ -7,31 +7,22 @@ Source: https://sketchfab.com/3d-models/macintosh-128k-4c358ebbf82a48acb6ee7b08f
 Title: Macintosh 128k
 */
 
-import React from 'react'
-import { useGLTF } from '@react-three/drei'
+import React from 'react';
+import { useGLTF } from '@react-three/drei';
 
 export default function Macintosh(props) {
-  const { nodes, materials } = useGLTF('/macintosh.gltf')
+  const { nodes, materials } = useGLTF('/macintosh.gltf');
   return (
     <group {...props} dispose={null}>
-      <group rotation={[-Math.PI / 2, 0, 0]} scale={0.07}>
+      <group rotation={[-Math.PI / 2, 0, 0]} scale={0.08}>
         <group rotation={[Math.PI / 2, 0, 0]}>
-          <mesh
-            geometry={nodes.macintosh128_beige_0.geometry}
-            material={materials.beige}
-          />
-          <mesh
-            geometry={nodes.macintosh128_screen_0.geometry}
-            material={materials.screen}
-          />
+          <mesh geometry={nodes.macintosh128_beige_0.geometry} material={materials.beige} />
+          <mesh geometry={nodes.macintosh128_screen_0.geometry} material={materials.screen} />
           <mesh
             geometry={nodes.macintosh128_black_plastic_0.geometry}
             material={materials.black_plastic}
           />
-          <mesh
-            geometry={nodes.macintosh128_pomme_0.geometry}
-            material={materials.pomme}
-          />
+          <mesh geometry={nodes.macintosh128_pomme_0.geometry} material={materials.pomme} />
           <mesh
             geometry={nodes.macintosh128_pommme_vert_0.geometry}
             material={materials.pommme_vert}
@@ -56,10 +47,7 @@ export default function Macintosh(props) {
             geometry={nodes.macintosh128_pomme_bleu_0.geometry}
             material={materials.pomme_bleu}
           />
-          <mesh
-            geometry={nodes.macintosh128_metal_0.geometry}
-            material={materials.metal}
-          />
+          <mesh geometry={nodes.macintosh128_metal_0.geometry} material={materials.metal} />
           <mesh
             geometry={nodes.macintosh128_grey_plastic_0.geometry}
             material={materials.grey_plastic}
@@ -67,7 +55,7 @@ export default function Macintosh(props) {
         </group>
       </group>
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/macintosh.gltf')
+useGLTF.preload('/macintosh.gltf');
