@@ -1,4 +1,3 @@
-import React from 'react';
 import Balloons from '../../assets/balloons.svg';
 const Confetti = () => {
   return (
