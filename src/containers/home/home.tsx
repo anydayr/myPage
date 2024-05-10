@@ -15,7 +15,6 @@ const Home = () => {
 
         background: '#050B0E'
       }}>
-      <img src={line} alt="" style={{ position: 'absolute', right: '82.5%', bottom: '47%' }} />
       <div
         style={{
           right: '40%',
@@ -24,6 +23,7 @@ const Home = () => {
           alignItems: 'center',
           justifyContent: 'center'
         }}>
+        <img src={line} alt="" style={{ position: 'absolute', bottom: '90%', zIndex: 10 }} />
         <div className="circle_1">
           <img
             src={circle1}

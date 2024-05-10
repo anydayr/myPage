@@ -1,3 +1,6 @@
 canvas {
   height: 100vh !important;
 }
+body {
+  overflow-x: hidden;
+}
