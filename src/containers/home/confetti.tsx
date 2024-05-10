@@ -17,7 +17,7 @@ const Confetti = () => {
       </p>
       {/* 
       <h2 style={{ fontSize: '200px', color: '#7DBCCF', fontWeight: 100, margin: 0 }}>Celebrar</h2> */}
-      <img src={Balloons} alt="" style={{ position: 'absolute', left: '75%' }} />
+      {/*    <img src={Balloons} alt="" style={{ position: 'absolute', left: '75%' }} /> */}
       <button
         style={{
           borderRadius: '42px',
