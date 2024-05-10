@@ -15,7 +15,8 @@ const Confetti = () => {
       <p style={{ margin: 0, color: 'white', fontSize: '35px', fontWeight: 100 }}>
         Ya son más de <span style={{ color: '#F92E5E' }}>4 años creando soluciones</span>
       </p>
-      <h2 style={{ fontSize: '200px', color: '#7DBCCF', fontWeight: 100, margin: 0 }}>Celebrar</h2>
+      {/* 
+      <h2 style={{ fontSize: '200px', color: '#7DBCCF', fontWeight: 100, margin: 0 }}>Celebrar</h2> */}
       <img src={Balloons} alt="" style={{ position: 'absolute', left: '75%' }} />
       <button
         style={{
