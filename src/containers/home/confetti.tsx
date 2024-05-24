@@ -6,7 +6,7 @@ const Confetti = () => {
         position: 'relative',
         height: '10vh',
         backgroundColor: '#050B0E',
-        display: 'flex',
+
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
