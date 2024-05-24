@@ -10,7 +10,7 @@ const Confetti = () => {
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
-        gap: '32px'
+        gap: '3px'
       }}>
       <p style={{ margin: 0, color: 'white', fontSize: '35px', fontWeight: 100 }}>
         Ya son más de <span style={{ color: '#F92E5E' }}>4 años creando soluciones</span>
