@@ -18,7 +18,16 @@ const Confetti = () => {
       </p>
       <p>Nuevo</p>
       <p>Main</p>
+      <p>Nuevo</p>
+
       <p>Develop</p>
+      <p>9</p>
+      <p>9</p>
+      <p>Nuevo</p>
+      <p>Main</p>
+      <p>Develop</p>
+      <p>9</p>
+      <p>9</p>
       {/* 
       <h2 style={{ fontSize: '200px', color: '#7DBCCF', fontWeight: 100, margin: 0 }}>Celebrar</h2> */}
       {/*    <img src={Balloons} alt="" style={{ position: 'absolute', left: '75%' }} /> */}
