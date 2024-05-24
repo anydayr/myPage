@@ -4,7 +4,7 @@ const Confetti = () => {
     <div
       style={{
         position: 'relative',
-        height: '100vh',
+        height: '10vh',
         backgroundColor: '#050B0E',
         display: 'flex',
         alignItems: 'center',
