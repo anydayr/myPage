@@ -1,12 +1,12 @@
 import Experience from '../../assets/experience.svg';
-import CircularText from '../../assets/circular-text.svg';
+import CircularText from '../../assets/curve text.svg';
 import { useEffect, useState } from 'react';
 
 const Hero = () => {
-  const [classname, setClassname] = useState('#3A0267');
+  const [classname, setClassname] = useState('');
 
   const manejarScroll = () => {
-    if (window.scrollY < 500) {
+    if (window.scrollY > 300) {
       setClassname('experience');
     } else {
       setClassname('');
@@ -18,7 +18,7 @@ const Hero = () => {
     return () => {
       window.removeEventListener('scroll', manejarScroll);
     };
-  }, []);
+  }, [window.scrollY > 400]);
 
   return (
     <div
@@ -30,10 +30,18 @@ const Hero = () => {
         alignItems: 'center',
         position: 'relative'
       }}>
-      <div>
-        <img src={Experience} alt="" style={{ position: 'absolute' }} className={classname} />
-        <img src={CircularText} alt="" />
-      </div>
+      <img
+        src={Experience}
+        alt=""
+        style={{ position: 'absolute', zIndex: 1 }}
+        className={classname}
+      />
+      <img
+        src={CircularText}
+        alt=""
+        style={{ position: 'absolute', zIndex: 1, top: '65%' }}
+        className={classname}
+      />
     </div>
   );
 };

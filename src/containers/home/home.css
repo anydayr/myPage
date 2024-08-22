@@ -84,20 +84,33 @@
 }
 
 .experience {
-  animation: contrast 0.8s ease-in-out infinite; /* Ajusta la duración y el tipo de animación */
+  animation: scaleImage 1.5s ease-in-out; /* Ajusta la duración y el tipo de animación */
 }
 
-@keyframes contrast {
+@keyframes scaleImage {
   0% {
-    filter: brightness(100%);
+    transform: scale(1); /* Tamaño original */
   }
   50% {
-    filter: brightness(80%);
-  }
-  75% {
-    filter: brightness(20%);
+    transform: scale(2); /* Tamaño aumentado (150%) */
   }
   100% {
-    filter: brightness(0%);
+    transform: scale(1); /* Regresar al tamaño original */
+  }
+}
+
+.circular {
+  animation: opacity 0.5s ease-in-out; /* Ajusta la duración y el tipo de animación */
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1.5;
+  }
+  100% {
+    opacity: 0;
   }
 }
