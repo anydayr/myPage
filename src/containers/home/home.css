@@ -66,3 +66,19 @@
   position: absolute;
   animation: circle_3_animation 1.7s infinite;
 }
+
+@keyframes opacidad {
+  0% {
+    opacity: 1; /* Color original */
+  }
+  50% {
+    opacity: 0.5; /* Totalmente opaco */
+  }
+  100% {
+    opacity: 1; /* Vuelve al color original */
+  }
+}
+
+.imagen {
+  animation: opacidad 5s ease-in-out infinite; /* Ajusta la duración y el tipo de animación */
+}

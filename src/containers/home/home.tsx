@@ -1,69 +1,40 @@
 import './home.css';
-import circle1 from '../../assets/circle-1.svg';
-import circle2 from '../../assets/circle-2.svg';
-import circle3 from '../../assets/circle-3.svg';
-import line from '../../assets/line.svg';
+import Name from '../../assets/Anny Rondón.svg';
+import Welcome from '../../assets/WELCOME.svg';
+
 const Home = () => {
   return (
     <div
       style={{
+        background: '#3A0267',
         height: '100vh',
         display: 'flex',
-        position: 'relative',
+        justifyContent: 'center',
         alignItems: 'center',
-        justifyContent: 'flex-end',
-
-        background: '#050B0E'
+        position: 'relative'
       }}>
-      <div
+      <img src={Name} alt="" style={{ position: 'absolute', zIndex: 5, top: '40%' }} />
+      <p
         style={{
-          right: '40%',
-          display: 'flex',
-          position: 'relative',
-          alignItems: 'center',
-          justifyContent: 'center'
+          position: 'absolute',
+          zIndex: 5,
+          fontSize: '40px',
+          color: '#00F0FF',
+          textTransform: 'uppercase',
+          fontWeight: 600,
+          bottom: '25%',
+          right: '11%'
         }}>
-        <img src={line} alt="" style={{ position: 'absolute', bottom: '90%', zIndex: 10 }} />
-        <div className="circle_1">
-          <img
-            src={circle1}
-            alt=""
-            style={{ position: 'absolute', height: '100%', width: '100%' }}
-          />
-        </div>
-        <div className="circle_2">
-          <img
-            src={circle2}
-            alt=""
-            style={{ position: 'absolute', height: '100%', width: '100%' }}
-          />
-        </div>
-        <div className="circle_3">
-          <img
-            src={circle3}
-            alt=""
-            style={{ position: 'absolute', height: '100%', width: '100%' }}
-          />
-        </div>
-        {/*   <img src={circle2} alt="" style={{ position: 'absolute' }} />
-        <img src={circle1} alt="" style={{ position: 'absolute' }} /> */}
-      </div>
+        DESARROLLADOR DE SOFTWARE
+      </p>
 
-      <div
-        style={{ display: 'flex', flexDirection: 'column', marginRight: '7%', marginTop: '10%' }}>
-        <h1
-          style={{
-            fontSize: '85px',
-            color: '#7DBCCF',
-            fontWeight: '100',
-            margin: 0
-          }}>
-          Anny Rondón
-        </h1>
-        <h2 style={{ fontSize: '55px', color: '#FFFFFF', fontWeight: '100', margin: 0 }}>
-          Desarrollador front-end
-        </h2>
-      </div>
+      <img
+        src={Welcome}
+        className="imagen"
+        alt=""
+        style={{ position: 'absolute', zIndex: 4 }}
+        height={170}
+      />
     </div>
   );
 };
