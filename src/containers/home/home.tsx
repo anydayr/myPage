@@ -1,6 +1,7 @@
 import './home.css';
 import Name from '../../assets/Anny Rondón.svg';
 import Welcome from '../../assets/WELCOME.svg';
+import { useEffect, useState } from 'react';
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
           bottom: '25%',
           right: '11%'
         }}>
-        DESARROLLADOR DE SOFTWARE
+        FRONT-END DEVELOPER
       </p>
 
       <img

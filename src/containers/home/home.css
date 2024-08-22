@@ -80,5 +80,24 @@
 }
 
 .imagen {
-  animation: opacidad 5s ease-in-out infinite; /* Ajusta la duración y el tipo de animación */
+  animation: opacidad 2s ease-in-out infinite; /* Ajusta la duración y el tipo de animación */
+}
+
+.experience {
+  animation: contrast 0.8s ease-in-out infinite; /* Ajusta la duración y el tipo de animación */
+}
+
+@keyframes contrast {
+  0% {
+    filter: brightness(100%);
+  }
+  50% {
+    filter: brightness(80%);
+  }
+  75% {
+    filter: brightness(20%);
+  }
+  100% {
+    filter: brightness(0%);
+  }
 }
