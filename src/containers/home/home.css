@@ -92,7 +92,7 @@
     transform: scale(1); /* Tamaño original */
   }
   50% {
-    transform: scale(2); /* Tamaño aumentado (150%) */
+    transform: scale(1.8); /* Tamaño aumentado (150%) */
   }
   100% {
     transform: scale(1); /* Regresar al tamaño original */
